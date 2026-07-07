@@ -1,0 +1,33 @@
+{
+  "identifier" : "Skatelog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : { "_storeKitErrors" : [] },
+  "subscriptionGroups" : [
+    {
+      "id" : "skatelog_group",
+      "localizations" : [],
+      "name" : "Skatelog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "skatelog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            { "description" : "Trick-progression history and custom trick lists", "displayName" : "Skatelog Pro", "locale" : "en_US" }
+          ],
+          "productID" : "com.shimondeitel.skatelog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Skatelog Pro Monthly",
+          "subscriptionGroupID" : "skatelog_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : { "major" : 3, "minor" : 0 }
+}
