@@ -35,7 +35,6 @@ targets:
     platform: iOS
     sources:
       - path: SkatelogTests
-      - path: Skatelog.storekit
     dependencies:
       - target: Skatelog
     settings:
